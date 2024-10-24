@@ -1,7 +1,13 @@
 package com.github.sanchezih.cursos.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
 @Entity
 @Table(name = "comentario")
 public class Comentario {
